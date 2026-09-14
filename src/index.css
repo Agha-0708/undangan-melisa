@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  /* Tema Classic JRPG (Biru) */
+  --color-retro-bg: #1a1a2e;
+  --color-retro-panel: #0f3460;
+  
+  --font-pixel: "Press Start 2P", cursive;
+  --font-dialogue: "VT323", monospace;
+  
+  --animate-fade-in: fade-in 0.5s ease-in;
+  --animate-scanline: scanline 8s linear infinite;
+
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+  }
+}
+
+/* Efek TV Tabung Retro */
+.scanlines {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.15));
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 50;
+}
+
+/* Custom Scrollbar bergaya retro JRPG */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #0f3460;
+  border-left: 2px solid #4b5563; /* gray-600 */
+}
+::-webkit-scrollbar-thumb {
+  background: #facc15; /* yellow-400 */
+  border: 2px solid #4b5563;
+}
