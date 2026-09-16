@@ -64,7 +64,7 @@ export default function App() {
     if (!nama.trim() || !pesan.trim()) return
 
     // Tulis URL Endpoint Formspree milik Melisa di dalam tanda kutip ini:
-    const formspreeUrl = 'https://formspree.io/f/xyeggbyn' 
+    const formspreeUrl = 'https://formspree.io/f/xyezgqdk' 
 
     try {
       // Mengirim data ke Formspree
