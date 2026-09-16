@@ -202,9 +202,9 @@ export default function App() {
                   {/* Polaroid 1 */}
                   <div className="bg-white p-2 border border-gray-300 shadow-md transform rotate-2 hover:scale-110 transition-transform">
                     <div className="aspect-square mb-2 overflow-hidden border border-gray-200">
-                      <img src="/salingka.jpeg" alt="Polaroid 1" className="w-full h-full object-cover" />
+                      <img src="/duduk.jpeg" alt="Polaroid 1" className="w-full h-full object-cover" />
                     </div>
-                    <p className="text-center font-display text-[10px] font-bold text-gray-600">with Info Duduk</p>
+                    <p className="text-center font-display text-[10px] font-bold text-gray-600">Proud by MySelf</p>
                   </div>
 
                   {/* Polaroid 2 */}
@@ -276,6 +276,13 @@ export default function App() {
               </Y2KWindow>
 
             </div>
+          </div>
+
+          {/* WATERMARK DEVELOPER */}
+          <div className="mt-8 mb-4 text-center z-10">
+            <p className="text-white font-mono text-xs tracking-widest drop-shadow-[2px_2px_0_#000] bg-black/50 px-4 py-2 inline-block border border-gray-500">
+              &lt;/&gt; developed by <span className="text-cyan-400 font-bold">RAGL_DEV</span>
+            </p>
           </div>
 
           {/* Hit Counter */}
