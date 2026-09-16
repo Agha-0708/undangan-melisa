@@ -210,9 +210,9 @@ export default function App() {
                   {/* Polaroid 2 */}
                   <div className="bg-white p-2 border border-gray-300 shadow-md transform -rotate-3 hover:scale-110 transition-transform">
                     <div className="aspect-square mb-2 overflow-hidden border border-gray-200">
-                      <img src="/duduk.jpeg" alt="Polaroid 2" className="w-full h-full object-cover" />
+                      <img src="/kecil.jpeg" alt="Polaroid 2" className="w-full h-full object-cover" />
                     </div>
-                    <p className="text-center font-display text-[10px] font-bold text-gray-600">Achivement</p>
+                    <p className="text-center font-display text-[10px] font-bold text-gray-600">Chilhood</p>
                   </div>
 
                 </div>
