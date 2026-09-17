@@ -230,7 +230,7 @@ export default function App() {
                   <div className="bg-pink-100 p-4 border border-pink-300 text-pink-800 font-bold text-left mx-auto max-w-sm shadow-sm mb-6 text-sm">
                     <p className="mb-1">📅 Date: 20 September 2026</p>
                     <p className="mb-1">⏰ Time: 13:00 WIB - Selesai</p>
-                    <p>📍 Location: Unand</p>
+                    <p>📍 Location: Rektorat/FEB Unand</p>
                   </div>
                 </div>
               </Y2KWindow>
